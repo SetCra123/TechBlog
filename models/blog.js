@@ -22,7 +22,7 @@ Blog.init(
     author: {
         type: DataTypes.STRING,
         allowNull: false,
-    }
+    },
     blog_content: {
         type: DataTypes.STRING,
         allowNull: false,
