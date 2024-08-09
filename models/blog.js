@@ -19,6 +19,10 @@ Blog.init(
         type: DataTypes.DATE,
         allowNull: false, 
     },
+    author: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    }
     blog_content: {
         type: DataTypes.STRING,
         allowNull: false,
