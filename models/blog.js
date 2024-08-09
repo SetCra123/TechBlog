@@ -8,15 +8,20 @@ Blog.init(
     id: {
         type: DataTypes.INTEGER,
         allowNull: false,
-        primaryKey: true,        autoIncrement: true,
+        primaryKey: true,        
+        autoIncrement: true,
     },
-    name: {
+    title: {
         type: DataTypes.STRING,
         allowNull: false,
     },
     date: {
         type: DataTypes.DATE,
         allowNull: false, 
+    },
+    blog_content: {
+        type: DataTypes.STRING,
+        allowNull: false,
     },
   },
   {
